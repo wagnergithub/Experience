@@ -7,7 +7,7 @@ char psswrd[10];
 printf("Enter password:\n");
 scanf("%s",psswrd);
 if (strcmp(psswrd, "s3#!") == 0)
-printf("Access granted\n");
+printf("Correct password\n");
 else printf("Access denied\n");
 
 
